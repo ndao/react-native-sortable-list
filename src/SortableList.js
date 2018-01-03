@@ -553,7 +553,7 @@ export default class SortableList extends Component {
       activeRowKey: null,
       activeRowIndex: null,
       releasedRowKey: activeRowKey,
-      scrollEnabled: this.props.scrollEnabled,
+      scrollEnabled: true,
     }));
 
     if (this.props.onReleaseRow) {
